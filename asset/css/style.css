@@ -1,8 +1,14 @@
+body {
+  background-color: #f9fafb;
+  font-family: "Open Sans", sans-serif;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-row-gap: 20px;
+  margin: 0 auto;
 }
 main .circle {
   width: 100px;
@@ -27,4 +33,11 @@ main .score {
   font-weight: bold;
   text-align: center;
   color: #5d5d5d;
+  text-shadow: 1px 1px #fff;
+}
+main .score h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
 }/*# sourceMappingURL=style.css.map */
