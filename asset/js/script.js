@@ -1,4 +1,4 @@
-//récupération des données html
+//Récupération des données html
 const circles = document.querySelectorAll("div.circle");
 const score = document.querySelector("span");
 
